@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Future of Gaming",
+      "description": "Exploring how AI and cloud technology are shaping the next generation of video games."
+    },
+    {
+      "id": 2,
+      "title": "Understanding Global Illumination",
+      "description": "A brief look at how light simulation improves realism in modern game graphics."
+    },
+    {
+      "id": 3,
+      "title": "Nintendo’s Next Console",
+      "description": "Rumors and expectations surrounding the upcoming Nintendo Switch 2."
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity for Gamers",
+      "description": "Simple steps every gamer should take to protect their accounts and data online."
+    },
+    {
+      "id": 5,
+      "title": "The Rise of Handheld PCs",
+      "description": "Why devices like Steam Deck and ROG Ally are redefining portable gaming."
+    },
+    {
+      "id": 6,
+      "title": "Mastering Texture Quality",
+      "description": "How adjusting texture settings can boost performance and visual fidelity."
+    }
+  ]
+}
