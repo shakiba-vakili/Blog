@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../components/Container'
 import Articles from '../components/Articles'
+import Link from 'next/link'
 export interface IGetArticles{
       id?: number,
       title?:string,
@@ -14,10 +15,12 @@ async function Blogs() {
    <Container>
     <div className="grid grid-cols-4 gap-4 py-16">
  
-     {data.map((item)=>(
+     {data.map((item) => (
+  <Link key={item.id} href={`/blogs/${item.id}`}>
+    <Articles {...item} />
+  </Link>
+))}
 
-  <Articles key={item.id} {...item}/>
-    ))}
 
 
     </div>
