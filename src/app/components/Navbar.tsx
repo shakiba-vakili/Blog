@@ -6,7 +6,8 @@ function Navbar() {
     className='shadow p-4'
     >
         <Link className='mr-4' href="/">Home</Link>
-        <Link href="/blogs">Blogs</Link>
+        <Link className="mr-4" href="/blogs">Blogs</Link>
+        <Link href="/create-blog">Create Blogs</Link>
 
 
     </div>
