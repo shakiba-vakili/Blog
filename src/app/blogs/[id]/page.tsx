@@ -7,7 +7,8 @@ interface IArticleProps {
 }
 
 async function Article(props: IArticleProps) {
-    const {id} = await props.params
+    const {id} = await props.params;
+    
     const result = await fetch(`http://localhost:3001/articles/${id}`)
     const data = (await result.json()) as IGetArticles
 
