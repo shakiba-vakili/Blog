@@ -28,8 +28,8 @@ The project uses **Tailwind CSS** for styling and **JSON Server** as a mock API 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/shakiba-vakili/Shop.git
-cd Shop
+git clone https://github.com/shakiba-vakili/Blog.git
+cd Blog
 ```
 
 ### 2. Install Dependencies  
