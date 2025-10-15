@@ -9,8 +9,12 @@ This is my **first project built with Next.js** — a simple blog application wh
 The project uses **Tailwind CSS** for styling and **JSON Server** as a mock API for data handling.  
 
 ---
-## Demo
+## 🖼️ Demo
 ![Demo Image](demo/00.png)
+![Demo Image](demo/01.png)
+![Demo Image](demo/02.png)
+![Demo Image](demo/03.png)
+
 
 ## ⚙️ Technologies Used
 - [Next.js 14](https://nextjs.org/)  
