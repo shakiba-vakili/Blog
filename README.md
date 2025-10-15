@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📰 My Next.js Blog Project
 
-## Getting Started
+## 📖 About the Project
+This is my **first project built with Next.js** — a simple blog application where users can:  
+- ✍️ Create new articles  
+- 📚 View all articles on the blog page  
+- 🔍 Click on any article to see its full details  
 
-First, run the development server:
+The project uses **Tailwind CSS** for styling and **JSON Server** as a mock API for data handling.  
 
+---
+
+## ⚙️ Technologies Used
+- [Next.js 14](https://nextjs.org/)  
+- [React](https://react.dev/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [JSON Server](https://github.com/typicode/json-server)  
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/shakiba-vakili/Shop.git
+cd Shop
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies  
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Start JSON Server  
+In a separate terminal:
+```bash
+npx json-server --watch db.json --port 3001
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Run the Development Server  
+In the main terminal:
+```bash
+npm run dev
+```
 
-## Learn More
+Then open your browser and go to:
+```
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Pages Structure
+- `/blogs` → Shows the list of all articles  
+- `/blogs/[id]` → Displays the full article details  
+- `/create-blog` → Page to create a new article  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌈 Features
+✅ Add new articles with title and description  
+✅ Fetch and post data using a local API (JSON Server)  
+✅ Responsive design built with Tailwind CSS  
+✅ Dynamic routing for detailed article pages  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Personal Note
+This was my **first Next.js project**, where I learned about **dynamic routing**, **server-side data fetching**, and **Tailwind CSS styling**.
