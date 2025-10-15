@@ -5,7 +5,8 @@ import Link from 'next/link'
 export interface IGetArticles{
       id?: string,
       title?:string,
-      description?:string
+      description?:string,
+      text?:string
     
 }
 async function Blogs() {

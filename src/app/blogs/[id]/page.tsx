@@ -18,8 +18,12 @@ async function Article(props: IArticleProps) {
                 <h2 className="text-3xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
                     {data?.title}
                 </h2>
-                <p className="text-gray-200 text-lg leading-relaxed">
+                <h4 className="text-gray-200 text-lg leading-relaxed mb-6 font-bold">
                     {data?.description}
+                </h4>
+                <p className="text-gray-200 text-lg leading-relaxed justify-center text-justify
+                ">
+                    {data?.text}
                 </p>
             </div>
         </Container>
